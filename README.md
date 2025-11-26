@@ -15,38 +15,52 @@ UKS & Medical Record For Student - Sekolah Teladan
 
 ## 🚀 Quick Start
 ### Prerequisites
+```bash
 > PHP >= 8.2
 > Composer
 > Node.js & NPM
 > MySQL
+```
 
 ### Installation
-```bash
 # 1. Clone repository
+```bash
 git clone https://github.com/username/teladan-uks-laravel.git
 cd teladan-uks-laravel
+```
 
 # 2. Install dependencies
+```bash
 composer install
 npm install
+```
 
 # 3. Setup environment
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 # 4. Database setup (SQLite default)
+```bash
 touch database/database.sqlite
 php artisan migrate
+```
 
 # 5. Seed data (optional)
+```bash
 php artisan db:seed
+```
 
 # 6. Build assets
+```bash
 npm run build
+```
 
 # 7. Run application
+```bash
 php artisan serve
-\```
+```
 
 
 
